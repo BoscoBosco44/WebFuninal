@@ -1,0 +1,223 @@
+* {
+    border: 0px none;
+    outline: 0px;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/* --------------------------- General ---------------------------- */
+
+.flex{
+    display: flex;
+}
+
+.btn {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+ul {
+    list-style: none;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+/* li {
+    padding: 10px;
+    list-style: none;
+} */
+
+#main {
+    margin:auto;
+    width: 60em;
+}
+
+.whiteText {
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: xx-large;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* --------------------------- Imgs ---------------------------- */
+
+#leafLogo {
+    background-color: rgb(0, 209, 178);
+    padding: 5px;
+    border-radius: 5px;
+    /* transform: rotate(180deg); */
+}
+
+.Succlents1and2 {
+    height: 19em;
+    width: 19em;
+}
+
+.catiDisplayImg {
+    height: 8em;
+    width: 8em;
+    border-radius: 50%;
+    margin-bottom: 25px;
+}
+
+#searchLogo {
+    width: 2em;
+    height: 2em;
+    position: absolute;
+    top: 2.3em;
+    right: 44.3em;
+}
+
+#alertLogo {
+    height: 4em;
+    width: 4em;
+}
+
+/* --------------------------- Top bar ---------------------------- */
+
+#topBar{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+#topBarFunctions {
+    justify-content: space-between;
+    align-items: center;
+}
+
+#searchBox {
+    border: 3px solid black;
+    border-radius: 50px;
+    width: 33em;
+    height: 3em;
+    padding-left: 10px;
+}
+
+#signInBtn {
+    background-color: white;
+    font-size: larger;
+}
+
+
+
+#solidLine {
+    border: 3px solid black;
+    width: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/* --------------------------- container ---------------------------- */
+
+#container {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* ----------------- main content box ------------------ */
+
+#mainContentBox {
+    width: 60em;
+}
+
+#discoverCatiBox {
+    height: 19em;
+    background-color: rgb(0, 209, 178);
+    display: flex;
+}
+
+#discoverCatiTxt {
+    height: 19em;
+    width: 19em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#headerTxt {
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+#mainContentBox {
+    display: flex;
+}
+
+#soothAloBox {
+    margin-left: 27px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#soothAloText {
+    margin-top: 21px;
+    background-color: rgb(0, 209, 178);
+    height: 50px;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+}
+
+/* ----------------- cati box ------------------ */
+
+#catiBox {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 60em;
+    height: 19em;
+    background-color: rgb(174, 235, 232);
+}
+
+.catiDisplay {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* --------------------------- Bottom bar ---------------------------- */
+
+#bottomBar {
+    height: 5em;
+    width: 59.55em;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 3px solid black;
+    padding-top: 5px;
+    /* margin-top: -10em; */
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+}
+
+#bottomBarTxt {
+    width: 35em;
+    font-size: larger;
+}
+
+#cookiePolicytxt {
+    text-decoration: underline;
+}
+
+#iAcceptBtn {
+    background-color: rgb(0, 209, 178);
+    border: 2px solid black;
+    box-shadow: 3px 3px black;
+    color: white;
+    /* width: 6em; */
+    font-size: large;
+    padding: 10px;
+}
