@@ -11,31 +11,54 @@
 <body>
     <div id="main">
         <div id="topBar">
-            <div id="topBarFunctions" class="flex">
-                <img id="leafLogo" src="./images/assets/leaf.png" alt="Logo">
-                <h1 class="colorBlack">EasyBay</h1>
+        <div id="topBarFunctions" class="flex">
+            <img id="leafLogo" src="./images/assets/leaf.png" alt="Logo">
+            <h1 class="colorBlack">EasyBay</h1>
 
-                <div id="searchBox">
-                    <input type="text" placeholder="Search">
+            <div id="searchBox">
+                <input type="text" placeholder="Search">
 
-                    <img id="searchLogo" src="./images/assets/search-dark.png" alt="searchLogo">
+                <img id="searchLogo" src="./images/assets/search-dark.png" alt="searchLogo">
 
-                </div>
-
-                <button id="signInBtn">Sign In</button>
-                <img onclick="alertMsg()" src="./images/assets/cart-dark.png" alt="ShoppingCart">
             </div>
-            <ul id="catiLinks" class="flex mt-2 ">
-                <li><a class="" href="AeoniumPg.html">Aeonium</a></li>
-                <li><a href="AloePg.html">Aloe</a></li>
-                <li><a href="CactusPg.html">Cactus</a></li>
-                <li><a href="EcheveriaPg.html">Echeveria</a></li>
-                <li><a href="SedumPg.html">Sedum</a></li>
-                <li><a href="SempervivumPg.html">Sempervivum</a></li>
-                <li><a href="">More...</a></li>
-            </ul>
-            <div id="solidLine"></div>
+
+            <button id="signInBtn">Sign In</button>
+            <img onclick="alertMsg()" src="./images/assets/cart-dark.png" alt="ShoppingCart">
         </div>
+        <ul id="catiLinks" class="flex mt-2 ">
+            <li><a class="" href="AeoniumPg.html">Aeonium</a></li>
+            <li><a href="AloePg.html">Aloe</a></li>
+            <li><a href="CactusPg.html">Cactus</a></li>
+            <li><a href="EcheveriaPg.html">Echeveria</a></li>
+            <li><a href="SedumPg.html">Sedum</a></li>
+            <li><a href="SempervivumPg.html">Sempervivum</a></li>
+            <li><a href="">More...</a></li>
+        </ul>
+        <div id="solidLine"></div>
+    </div>
+
+        <!--<nav id="topBar" class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img id="leafLogo" src="./images/assets/leaf.png" alt="Logo" class="mr-2">
+                <h1 class="colorBlack mb-0">EasyBay</h1>
+            </a>
+            <div id="topBarFunctions" class="d-flex flex-grow-1 justify-content-end align-items-center">
+                <div id="searchBox" class="input-group mr-3">
+                    <input type="text" class="form-control" placeholder="Search">
+                    <div class="input-group-append">
+                        <button class="btn btn-outline-secondary" type="button">
+                            <img id="searchLogo" src="./images/assets/search-dark.png" alt="searchLogo">
+                        </button>
+                    </div>
+                </div>
+                <button id="signInBtn" class="btn btn-primary mr-2">Sign In</button>
+                <button onclick="alertMsg()" class="btn btn-outline-secondary">
+                    <img src="./images/assets/cart-dark.png" alt="ShoppingCart">
+                </button>
+            </div>
+        </nav>-->
+
+
         <div id="container">
             <h1 id="headerTxt">Your Source for Serious Succulent Specialties</h1>
             <div id="mainContentBox">
@@ -80,7 +103,8 @@
         </div>
         <div id="bottomBar">
             <img id="alertLogo" src="./images/assets/alert-dark.png" alt="AlertLogo">
-            <p id="bottomBarTxt">This site makes use of third-party cookies, by clicking "I Accept" you 
+            <p id="bottomBarTxt">
+                This site makes use of third-party cookies, by clicking "I Accept" you
                 agree to the terms outlined in our <a id="cookiePolicytxt" href="">cookie policy.</a>
             </p>
             <button id="iAcceptBtn" onclick="removeBottomBox(bottomBar)">I Accept</button>

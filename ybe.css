@@ -3,7 +3,10 @@
     outline: 0px;
     padding: 0;
     margin: 0;
-    font-family: Arial;
+/*    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+*/
+    font-family:'Palatino Linotype';
+
 /*    background-image: url("images/assets/bgImg.webp");
 */
 }
