@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yellow Belt Exam</title>
     <link rel="stylesheet" href="ybe.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
+
     <script src="ybe.js"></script>
 </head>
 <body>
@@ -17,12 +19,18 @@
                 <a href="index.html">
                     <h1>EasyBay</h1>
                 </a>
-                <input id="searchBox" type="text"  placeholder="Search">
+
+                <div id="searchBox">
+                    <input type="text" placeholder="Search">
+
+                    <img id="searchLogo" src="./images/assets/search-dark.png" alt="searchLogo">
+
+                </div>
+
                 <button id="signInBtn">Sign In</button>
                 <img onclick="alertMsg()" src="./images/assets/cart-dark.png" alt="ShoppingCart">
             </div>
-            <img id="searchLogo" src="./images/assets/search-dark.png" alt="searchLogo">
-            <ul id="catiLinks" class="flex">
+            <ul id="catiLinks" class="flex mt-2">
                 <li><a href="AeoniumPg.html">Aeonium</a></li>
                 <li><a href="AloePg.html">Aloe</a></li>
                 <li><a href="CactusPg.html">Cactus</a></li>
@@ -40,7 +48,7 @@
                     <div id="discoverCatiTxt">
                         <p class="whiteText">
 
-                            Echeveria are rosette-shaped succulents known for their colorful leaves, thriving in bright light with minimal water
+                            Echeveria are rosette shaped succulents with colorful leaves, that thrive in light
                         </p>
                     </div>
                     <img class="Succlents1and2" src="./images/assets/Echeveria-0.webp" alt="Succlents1">

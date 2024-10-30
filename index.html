@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yellow Belt Exam</title>
     <link rel="stylesheet" href="ybe.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
     <script src="ybe.js"></script>
 </head>
 <body>
@@ -13,13 +14,19 @@
             <div id="topBarFunctions" class="flex">
                 <img id="leafLogo" src="./images/assets/leaf.png" alt="Logo">
                 <h1>EasyBay</h1>
-                <input id="searchBox" type="text"  placeholder="Search">
+
+                <div id="searchBox">
+                    <input type="text" placeholder="Search">
+
+                    <img id="searchLogo" src="./images/assets/search-dark.png" alt="searchLogo">
+
+                </div>
+
                 <button id="signInBtn">Sign In</button>
                 <img onclick="alertMsg()" src="./images/assets/cart-dark.png" alt="ShoppingCart">
             </div>
-            <img id="searchLogo" src="./images/assets/search-dark.png" alt="searchLogo">
-            <ul id="catiLinks" class="flex">
-                <li><a href="AeoniumPg.html">Aeonium</a></li>
+            <ul id="catiLinks" class="flex mt-2 ">
+                <li><a class="" href="AeoniumPg.html">Aeonium</a></li>
                 <li><a href="AloePg.html">Aloe</a></li>
                 <li><a href="CactusPg.html">Cactus</a></li>
                 <li><a href="EcheveriaPg.html">Echeveria</a></li>
@@ -34,7 +41,7 @@
             <div id="mainContentBox">
                 <div id="discoverCatiBox">
                     <div id="discoverCatiTxt">
-                        <h2 class="whiteText">Discover succ- ulent varieties one pot or rack at a time!</h2>
+                        <h2 class="whiteText">Discover suculent varieties one pot or rack at a time!</h2>
                         <h2 class="whiteText">Discover &#x2192;</h2>
                     </div>
                     <img class="Succlents1and2" onmouseover="changeImage(1, this)" onmouseout="changeImage(2, this)" src="./images/assets/succulents-1.jpg" alt="Succlents1">

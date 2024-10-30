@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yellow Belt Exam</title>
     <link rel="stylesheet" href="ybe.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
+
     <script src="ybe.js"></script>
 </head>
 <body>
@@ -17,12 +19,18 @@
                 <a href="index.html">
                     <h1>EasyBay</h1>
                 </a>
-                <input id="searchBox" type="text"  placeholder="Search">
+
+                <div id="searchBox">
+                    <input type="text" placeholder="Search">
+
+                    <img id="searchLogo" src="./images/assets/search-dark.png" alt="searchLogo">
+
+                </div>
+
                 <button id="signInBtn">Sign In</button>
                 <img onclick="alertMsg()" src="./images/assets/cart-dark.png" alt="ShoppingCart">
             </div>
-            <img id="searchLogo" src="./images/assets/search-dark.png" alt="searchLogo">
-            <ul id="catiLinks" class="flex">
+            <ul id="catiLinks" class="flex mt-2">
                 <li><a href="AeoniumPg.html">Aeonium</a></li>
                 <li><a href="AloePg.html">Aloe</a></li>
                 <li><a href="CactusPg.html">Cactus</a></li>
@@ -42,10 +50,10 @@
                             Aloe is a genus of succulent plants known for their fleshy, spiky leaves that store water
                         </p>
                     </div>
-                    <img class="Succlents1and2" src="./images/assets/aloe-0.jpg" alt="Succlents1">
+                    <img class="Succlents1and2" src="./images/assets/aloe-4.webp" alt="Succlents1">
                 </div>
                 <div id="soothAloBox">
-                    <img class="smoothAloPic" src="./images/assets/aloe-1.jpg" alt="alo">
+                    <img class="smoothAloPic" src="./images/assets/aloe-3.jpg" alt="alo">
                     <h2 id="soothAloText">Buy Aloe &#x2192;</h2>
                 </div>
             </div>
