@@ -95,6 +95,8 @@ a {
 
 .colorTeil {
     color: rgb(0, 209, 178);
+}.colorBlack {
+    color: black;
 }
 
 #topBar {
